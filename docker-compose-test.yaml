@@ -1,0 +1,11 @@
+version: "2"
+services:
+  react-test:
+    build:
+      context: .
+      dockerfile: dockerfile.test
+    image: react-test:latest
+    container_name: react-test
+    volumes:
+      - /app/node_modules
+      - .:/app

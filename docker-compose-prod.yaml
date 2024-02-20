@@ -1,0 +1,7 @@
+version: "2"
+services:
+  react-prod:
+    image: react-prod:latest
+    container_name: react-prod
+    ports:
+      - 3000:80
