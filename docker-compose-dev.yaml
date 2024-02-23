@@ -1,7 +1,7 @@
 version: "2"
 services:
   frontend:
-    image: react:latest
+    image: react:latest 
     container_name: react_app
     ports:
       - 3000:3000
